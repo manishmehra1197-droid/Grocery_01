@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Grossory Store</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Aguafina Script' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css">
+</head>
+<body>
+<header class="header">
+<a href="#"class="logo"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Grocery</a>
+<nav class="navbar">
+	<a href="#home">home</a>
+	<a href="#features">features</a>
+	<a href="#product">products</a>
+	<a href="#categories">categories</a>
+	<a href="#review">review</a>
+	<a href="#blogs">blogs</a>
+</nav>
+
+<div class="icons">
+	<div class="fa fa-bars"id="menu-btn"></div>
+	<div class="fa fa-search"id="search-btn"></div>
+	<div class="fa fa-shopping-cart"id="cart-btn"></div>
+	<div class="fa fa-user"id="login-btn"></div>
+</div>
+
+<form class="search-form">
+	<input type="search"id="search-box"placeholder="search here........">
+	<label for="search-box"class="fa fa-search"></label>
+</form>
+<div class="shopping-cart">
+      <div class="box">
+	 <i class="fa fa-trash"></i>
+	   <img src="apple.png">
+	   <div class="content">
+		<h3>Apple</h3>
+		<span class="price">Rs.10/-</span>
+		<span class="quantity">1</span>
+	   </div>
+	  </div>
+	   <div class="box">
+	    <i class="fa fa-trash"></i>
+	   <img src="mango.png">
+	   <div class="content">
+		<span class="price">Rs.20/-</span>
+		<span class="quantity">2</span>
+	   </div>
+	   </div>
+	   <div class="box">
+	    <i class="fa fa-trash"></i>
+	   <img src="kiwi.png">
+	   <div class="content">
+		<span class="price">Rs.10/-</span>
+		<span class="quantity">1</span>
+	   </div>
+	   </div>
+    <div class="total">Total:Rs.40/-</div>
+	<a href="#" class="btn">Checkout</a>
+</div>
+<form action="#" class="login-form">
+	<h3>Login Now</h3>
+	<input type="email" placeholder="Enter Your Email" class="box">
+	<input type="password" placeholder="Enter Your Password" class="box">
+	<p>Forget Your Password? <a href="#">Click Here</a></p>
+	<p>Don't Have an Account? <a href="#">Create Now</a></p>
+	<input type="submit" value="Login Now" class="btn">
+</form>
+</header>
+<section class="home" id="home">
+    <div class="content">
+         <h3>Fresh and <span>Organic</span> products for you.</h3>
+		 <p>This site is designed by RK IT HUB. So that everyone can learn in easy way that how to create a website.</p>
+		 <a href="#" class="btn">Shop Now</a>
+	</div>
+</section>
+<!-- Our Features -->
+<section class="features" id="features">
+	<h3 class="heading"><span>Our Features</span></h3>
+	<div class="container">
+		<div class="box">
+         <img src="vegetable.png">
+		 <h3>Fresh and Organic</h3>
+		 <P>On the basis of experiment by expert person.</P>
+		 <a href="#" class="btn">Read More</a>
+		</div>
+		<div class="box">
+         <img src="delivery.png">
+		 <h3>Free Delivery</h3>
+		 <P>Good News! Your order #[Order Number] qualifies for free delivery. It is on its way 
+			with no extra shipping fees! </P>
+		<a href="#" class="btn">Read More</a>
+		</div>
+		<div class="box">
+         <img src="payment.png">
+		 <h3>Easy Payment System</h3>
+		 <P>"Hi, you can pay using UPI,Net Banking and another smart e-payment system.".</P>
+		 <a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+</section>
+<!-- Our Product Section -->
+ <section class="product" id="product">
+     <h1 class="heading"><span>Our Products</span></h1>
+	 <div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+            <img src="desserts.png">
+			<h1>Desserts</h1>
+			<div class="price">Rs. 200/-  - Rs. 600/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+			<div class="swiper-slide box">
+            <img src="juices.png">
+			<h1>Juices</h1>
+			<div class="price">Rs. 100/-  - Rs. 500/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+				<div class="swiper-slide box">
+            <img src="chocolate.png">
+			<h1>Chocolates</h1>
+			<div class="price">Rs. 250/-  - Rs. 700/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+				<div class="swiper-slide box">
+            <img src="donuts.png">
+			<h1>Donuts</h1>
+			<div class="price">Rs. 200/-  - Rs. 600/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+				<div class="swiper-slide box">
+            <img src="snacks.png">
+			<h1>Snacks</h1>
+			<div class="price">Rs. 50/-  - Rs. 200/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+		</div>
+	 </div>
+ </section>
+ <section class="product" id="product">
+	 <div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+            <img src="noodles.png">
+			<h1>Noodles</h1>
+			<div class="price">Rs. 200/-  - Rs. 600/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+			<div class="swiper-slide box">
+            <img src="cereals.png">
+			<h1>Cereals</h1>
+			<div class="price">Rs. 100/-  - Rs. 500/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+				<div class="swiper-slide box">
+            <img src="ghee.png">
+			<h1>Ghee</h1>
+			<div class="price">Rs. 250/-  - Rs. 700/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+				<div class="swiper-slide box">
+            <img src="sauces.png">
+			<h1>Spreads</h1>
+			<div class="price">Rs. 200/-  - Rs. 600/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+				<div class="swiper-slide box">
+            <img src="dryfruits.png">
+			<h1>DryFruits</h1>
+			<div class="price">Rs. 50/-  - Rs. 200/-</div>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			<a href="#" class="btn">add to cart</a>
+			</div>
+		</div>
+	 </div>
+ </section>
+ <!-- Categories -->
+ <section class="categories" id="categories">
+	<h1 class="heading"><span>Product Categories</span></h1>
+	<div class="container">
+		<div class="box">
+         <img src="vegetable.png">
+		 <P>Upto 20% off</P>
+		 <a href="#" class="btn">Click Here</a>
+		</div>
+		<div class="box">
+         <img src="fruits.png">
+		 <P>Upto 30% off</P>
+		<a href="#" class="btn">Click Here</a>
+		</div>
+		<div class="box">
+         <img src="dryfruits.png">
+		 <P>Upto 15% off</P>
+		 <a href="#" class="btn">Click Here</a>
+		</div>
+		<div class="box">
+         <img src="juices.png">
+		 <P>Upto 40% off</P>
+		 <a href="#" class="btn">Click Here</a>
+		</div>
+	</div>
+</section>
+<!-- review section -->
+ <section class="review" id="review">
+     <h1 class="heading"><span>Customer's Review</span></h1>
+	 <div class="swiper review-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+            <img src="p1.png">
+			<h3>Noah</h3>
+			<p>My weekly grocery order arrived exactly during my 
+			selected time slot. The driver was polite, and nothing was missing.</p>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			</div>
+			<div class="swiper-slide box">
+            <img src="p2.png">
+			<h3>Amelia</h3>
+			<p>Fast delivery and great communication! When an item was out of stock, 
+			the shopper texted me immediately to offer an excellent substitute.</p>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			</div>
+			<div class="swiper-slide box">
+            <img src="p3.png">
+			<h3>Oliver</h3>
+			<p>This site makes meal planning so easy. I love the 'reorder history' button—it 
+				saves me hours on my weekly pantry restock.</p>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			</div>
+			<div class="swiper-slide box">
+            <img src="p4.png">
+			<h3>Leo</h3>
+			<p>I'm always hesitant to buy dairy online, but the milk and cheese arrived ice-cold in 
+				insulated packaging. 10/10 for freshness!</p>
+			<div class="star">
+            <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			</div>
+			</div>
+		</div>
+</div>
+<!-- Blogs -->
+ <section class="blogs" id="blogs">
+     <h1 class="heading"><span>Our Blogs</span></h1>
+	 <div class="box-container">
+		<div class="box">
+            <img src="f1.png">
+			<div class="content">
+			<div class="icons">
+            <a href="#"><i class="fa fa-user"></i>By User</a>
+			<a href="#"><i class="fa fa-calendar"></i>16 October 2026</a>
+			</div>
+			<h3> Juicy, Sweet, and Oh-So-Fresh Fruits</h3>
+			<p> Indulge your sweet tooth the healthy way! Bursting with vibrant flavors, natural 
+				sweetness, and powerful antioxidants, these seasonal fruits are the perfect daily pick-me-up.</p>
+			<a href="#" class="btn">read more</a>
+			</div>
+			</div>
+			<div class="box">
+            <img src="v1.png">
+			<div class="content">
+			<div class="icons">
+            <a href="#"><i class="fa fa-user"></i>By User</a>
+			<a href="#"><i class="fa fa-calendar"></i>16 October 2026</a>
+			</div>
+			<h3> Crisp, Colorful, and Nutrient-Packed Veggies</h3>
+			<p>Our selection of fresh, organic vegetables is packed 
+				with essential vitamins and natural flavors to elevate your daily meals.</p>
+			<a href="#" class="btn">read more</a>
+			</div>
+			</div>
+			<div class="box">
+            <img src="d1.png">
+			<div class="content">
+			<div class="icons">
+           <a href="#"><i class="fa fa-user"></i>By User</a>
+		   <a href="#"><i class="fa fa-calendar"></i>16 October 2026</a>
+			</div>
+			<h3>Energizing Juices and Wellness Drinks</h3>
+			<p>• From cold-pressed wellness juices to creamy, nutrient-rich smoothies, 
+				every sip is crafted to hydrate, detoxify, and instantly recharge your day. 
+				No artificial junk—just pure, liquid vitality.</p>
+			<a href="#" class="btn">read more</a>
+			</div>
+			</div>
+			<div class="box">
+            <img src="s1.png">
+			<div class="content">
+			<div class="icons">
+            <a href="#"><i class="fa fa-user"></i>By User</a>
+			<a href="#"><i class="fa fa-calendar"></i>16 October 2026</a>
+			</div>
+			<h3> Rich, Decadent Chocolate & Chocolate Chip Cookies</h3>
+			<p> Pure chocolate bliss in every single bite! Whether you crave the deep, 
+				velvety richness of an all-chocolate cookie or the perfect golden crunch of 
+				classic chocolate chip cookies, we have combined the best of both worlds.</p>
+			<a href="#" class="btn">read more</a>
+			</div>
+			</div>
+			</div>
+</section>
+<section class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>Join Us<i class="fa fa-shopping-basket"></i></h3>
+			<p>You Can contact us through sources, we will provide fast service</p>
+			<div class="share">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+			</div>
+		</div>
+		<div class="box">
+			<h3>Contact Info</h3>
+			<a href="#" class="fa fa-phone">+91 8965437643</a>
+			<a href="#" class="fa fa-phone">0130-5437643</a>
+			<a href="#" class="fa fa-envelope">info.2026@example.com</a>
+			<a href="#" class="fa fa-map-marker">Sonipat (Haryana)</a>
+
+		</div>
+		<div class="box">
+			<h3>Quick Links</h3>
+			<a href="#home" class="fa fa-arrow-right">Home</a>
+			<a href="#features" class="fa fa-arrow-right">Features</a>
+			<a href="#product" class="fa fa-arrow-right">Products</a>
+			<a href="#categories" class="fa fa-arrow-right">Categoires</a>
+			<a href="#blogs" class="fa fa-arrow-right">Review</a>
+			<a href="#blogs" class="fa fa-arrow-right">Blogs</a>
+		</div>
+		<div class="box">
+			<h3>Latest News</h3>
+			<p>Subscirbe for latest News</p>
+			<input type="email" placeholder="Enter Your Email" class="email">
+			<input type="submit" placeholder="Subscirbe" class="btn">
+			<img src="pay.png">
+		</div>
+		</div>
+<div class="credit">Created By <span>Minions </span>All Right Reserved</div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</html>
